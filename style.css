@@ -1,0 +1,94 @@
+body {
+
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+
+}
+
+img.background-image {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+
+}
+
+img.background-image.loaded {
+    animation: 1.2s ease 0s normal forwards 1 fadein;
+
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+a.quote-container {
+    text-decoration: none;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Raleway', sans-serif;
+    bottom: 5%;
+    width: 20%;
+    min-width: 10em;
+    max-width: 15em;
+    left: 0;
+    font-size: large;
+    padding: 15px;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+a.quote-container > * {
+    margin: 0;
+}
+
+a.quote-container > .quote {
+    color: white;
+    text-align: left;
+}
+
+a.quote-container > .goodreads-link {
+    text-decoration: none;
+    color: gray;
+}
+
+a.quote-container > .author {
+    text-align: right;
+    color: lightgray;
+}
+
+a.background-image-info {
+    z-index: 1;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    color: whitesmoke;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.6), 1px 1px 2px rgba(0, 0, 0, 0.35);
+    opacity: 0.7;
+}
+
+a.background-image-info:hover {
+    opacity: 1;
+}
+
+section.clock {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+}

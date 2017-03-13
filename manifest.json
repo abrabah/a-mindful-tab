@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "a mindful tab",
+  "version": ".1",
+  "description": "swap newtab for a background image and a nice quote :)",
+  "chrome_url_overrides": {
+    "newtab": "mindful.html"
+  },
+  "permissions": [
+    "http://feeds.feedburner.com/brainyquote/QUOTEBR",
+    "https://i.redd.it/*"
+  ],
+  "background": {
+    "scripts": [
+      "backend.js"
+    ]
+  },
+  "web_accessible_resources": [
+    "style.css",
+    "frontend.js",
+    "mindful.html"
+   ],
+  "applications": {
+    "gecko" : {
+      "strict_min_version":"65.0.1"
+   }
+ }
+}
