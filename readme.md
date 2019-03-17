@@ -2,6 +2,8 @@
 
 A firefox addon that shows random nature images from [reddit's earth porn](https://www.reddit.com/r/EarthPorn/) and a nice quote from [Brainy quote](https://www.brainyquote.com/) everytime you open a new browser tab.
 
+Download and install addon here: https://addons.mozilla.org/en-US/firefox/addon/a-mindful-tab/
+
 ## running locally
 
 If you wish to mess around with this addon locally, do the following;
