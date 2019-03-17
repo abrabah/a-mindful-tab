@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "a mindful tab",
-  "version": "1.1",
+  "version": "1.1.1",
   "description": "Replace your new tab with nice nature images and quotes ",
   "chrome_url_overrides": {
     "newtab": "mindful.html"
@@ -19,5 +19,9 @@
     "style.css",
     "frontend.js",
     "mindful.html"
-   ]
+   ],
+   "icons" : {
+     "48": "icons/icons8-leaf-48.png",
+     "96": "icons/icons8-leaf-96.png"
+   }
 }
