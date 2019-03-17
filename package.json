@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "lint-fix": "standard --fix src/**/*.js"
+    "lint-fix": "standard --fix src/**/*.js", 
+    "zip": "web-ext build -s src -a dist",
+    "watch": "web-ext run -s src"
   },
   "devDependencies": {
     "web-ext": "^1.9.0",
