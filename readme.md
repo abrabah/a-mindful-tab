@@ -12,3 +12,7 @@ If you wish to mess around with this addon locally, do the following;
 2. run `npm install` and `npm run watch`
 
 A new firefox instance should now open with a development version of the addon installed. Have fun hacking :)
+
+# todo 
+
+handle 404 images 
