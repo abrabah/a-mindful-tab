@@ -5,7 +5,7 @@
     "watch": "web-ext run -s src"
   },
   "devDependencies": {
-    "web-ext": "^3.1.0",
-    "standard": "^13.0.1"
+    "standard": "^14.3.1",
+    "web-ext": "^3.2.0"
   }
 }
