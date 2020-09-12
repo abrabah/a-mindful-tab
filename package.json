@@ -4,8 +4,9 @@
     "zip": "web-ext build -s src -a dist",
     "watch": "web-ext run -s src"
   },
-  "devDependencies": {
-    "standard": "^14.3.1",
-    "web-ext": "^3.2.0"
+  "devDependencies": {},
+  "dependencies": {
+    "standard": "^14.3.4",
+    "web-ext": "^5.0.0"
   }
 }

@@ -122,7 +122,7 @@ function removeLeadingAndTrailingQuotationMarks (string) {
   return string.replace(/(^"+|"+$)/g, '')
 }
 
-function fetchQuote (url = `http://feeds.feedburner.com/brainyquote/QUOTEBR`) {
+function fetchQuote (url = 'http://feeds.feedburner.com/brainyquote/QUOTEBR') {
   return fetch(url, { cache: 'no-store' })
     .then(response => response.text())
     .then(text => new DOMParser().parseFromString(text, 'text/xml'))
