@@ -133,10 +133,12 @@ function fetchQuote (url = 'https://feeds.feedburner.com/brainyquote/QUOTEBR') {
         data[element.nodeName] = element.textContent
       })
 
+      console.log(data); 
+
       return {
         quote: removeLeadingAndTrailingQuotationMarks(data.description),
         author: data.title,
-        url: data['feedburner:origLink'],
+        url: data.link,
         website: 'BrainyQuote.com'
       }
     }))
